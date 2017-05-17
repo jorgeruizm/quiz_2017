@@ -33,4 +33,10 @@ router.get('/help', function(req, res, next) {
     res.render('help');
 });
 
+// Definición de rutas de Juego Aleatorio
+router.get('/quizzes/randomplay', function(req, res, next) {
+    res.render('quizzes/random_play');
+});
+
+
 module.exports = router;
