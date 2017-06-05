@@ -259,7 +259,7 @@ exports.randomcheck = function(req, res, next){
         if(score < n){
             req.session.checkit = true;
             res.render('random_result', {
-                score: score,
+                score: req.session.score,
                 result: result,
                 answer: answer
             });
