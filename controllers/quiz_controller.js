@@ -222,3 +222,89 @@ exports.check = function (req, res, next) {
         answer: answer
     });
 };
+
+exports.randomplay =  function(req, res, next){
+    if(req.session.checkit == undefined)
+        req.session.checkit = true;
+
+
+    if(!req.session.checkit || req.session.score == undefined ){
+        req.session.score = 0;
+        req.session.index = [0];
+    }
+
+
+    req.session.checkit = false;
+
+    models.Quiz.findOne({
+            order: [
+                Sequelize.fn( 'RANDOM' ),
+            ],
+            where:{
+                id:{
+                    $notIn: req.session.index
+                }
+
+            }
+        }
+
+    )
+        .then(function(quiz){
+            if(quiz == null){
+                var error={
+                    status : "Verifica tu base de datos",
+                    stack : "---"
+                }
+
+                res.render("error",{
+                    message: "NO HAY ELEMENTOS EN LA BASE DE DATOS",
+                    error: error
+                });
+            }
+
+            req.session.index = req.session.index.concat(quiz.id);
+            console.log(req.session.index);
+            res.render("random_play",{
+                score: req.session.score,
+                quiz: quiz }
+            );
+
+        });
+
+
+};
+
+exports.randomcheck = function(req, res, next){
+    var answer = req.query.answer || "";
+    var score = req.session.score;
+
+    var result = answer.toLowerCase().trim() === req.quiz.answer.toLowerCase().trim();
+
+
+    models.Quiz.count({}).then(function(n){
+        if(result){
+            req.session.score++;
+            score=req.session.score;
+        }
+        else{
+            req.session.score=0;
+            req.session.index =[];
+        }
+
+        if(score < n){
+            req.session.checkit = true;
+            res.render('random_result', {
+                score: req.session.score,
+                result: result,
+                answer: answer
+            });
+        }
+        else{
+            res.render("random_nomore", {
+                score: score
+            });
+        }
+
+    });
+
+};
