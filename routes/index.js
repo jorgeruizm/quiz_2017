@@ -13,6 +13,11 @@ router.get('/author', function(req, res, next) {
     res.render('author');
 });
 
+//<<<<<<< HEAD
+//=======
+//<<<<<<< HEAD
+
+//>>>>>>> ee28179
 // Autoload de rutas que usen :quizId
 router.param('quizId', quizController.load);
 
@@ -27,16 +32,26 @@ router.delete('/quizzes/:quizId(\\d+)',    quizController.destroy);
 
 router.get('/quizzes/:quizId(\\d+)/play',  quizController.play);
 router.get('/quizzes/:quizId(\\d+)/check', quizController.check);
+router.get("/quizzes/randomplay", quizController.randomplay);
+router.get("/quizzes/randomcheck/:quizId(\\d+)", quizController.randomcheck);
 
+//<<<<<<< HEAD
+//=======
+//=======
+//>>>>>>> ee28179
 //Pagina de ayuda
 router.get('/help', function(req, res, next) {
     res.render('help');
 });
+//<<<<<<< HEAD
 
 // Definición de rutas de Juego Aleatorio
 router.get('/quizzes/randomplay', function(req, res, next) {
     res.render('quizzes/random_play');
 });
 
+//=======
+//>>>>>>> practica51
+//>>>>>>> ee28179
 
 module.exports = router;
