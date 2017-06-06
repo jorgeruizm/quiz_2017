@@ -15,11 +15,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="720">
               <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tip.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/tip.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/tips/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1280">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -28,8 +58,28 @@
       <file leaf-file-name="quiz_controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/quiz_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="293" column="22" lean-forward="false" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="22" />
+            <state relative-caret-position="720">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tip_controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/tip_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1103">
+              <caret line="115" column="1" lean-forward="false" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20170324112430-AddAcceptdToTipsTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/20170324112430-AddAcceptdToTipsTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,6 +90,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ran</find>
+      <find>load</find>
+      <find>tipI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,9 +101,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/models/index.js" />
-        <option value="$PROJECT_DIR$/controllers/quiz_controller.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/controllers/quiz_controller.js" />
+        <option value="$PROJECT_DIR$/controllers/tip_controller.js" />
+        <option value="$PROJECT_DIR$/models/index.js" />
+        <option value="$PROJECT_DIR$/views/tips/index.ejs" />
       </list>
     </option>
   </component>
@@ -68,7 +122,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-14" />
-    <option name="width" value="1795" />
+    <option name="width" value="1628" />
     <option name="height" value="1814" />
   </component>
   <component name="ProjectView">
@@ -123,15 +177,16 @@
       <workItem from="1496601567750" duration="22000" />
       <workItem from="1496601597182" duration="2610000" />
       <workItem from="1496658201579" duration="3802000" />
-      <workItem from="1496679597462" duration="3072000" />
+      <workItem from="1496679597462" duration="3666000" />
+      <workItem from="1496761889148" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9538000" />
+    <option name="totallyTimeSpent" value="11864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="0" width="1795" height="1814" extended-state="0" />
+    <frame x="-14" y="0" width="1628" height="1814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -166,6 +221,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/quiz_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11720">
+          <caret line="293" column="22" lean-forward="false" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
@@ -176,23 +247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1496686383254" expanded="true" signature="1735:2820" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1768:2045" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="1804:2031" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1866:2012" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1916:1992" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2083:2375" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2122:2361" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2190:2342" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2243:2322" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2411:2688" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2448:2674" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2507:2655" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2558:2635" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2863:2963" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2916:2949" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -223,23 +277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1496686383254" expanded="true" signature="1735:2820" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1768:2045" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="1804:2031" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1866:2012" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1916:1992" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2083:2375" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2122:2361" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2190:2342" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2243:2322" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2411:2688" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2448:2674" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2507:2655" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2558:2635" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2863:2963" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2916:2949" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -293,13 +330,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz.sqlite" />
-    <entry file="file://$PROJECT_DIR$/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -328,38 +358,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1496686383254" expanded="true" signature="1735:2820" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1768:2045" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="1804:2031" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1866:2012" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="1916:1992" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2083:2375" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2122:2361" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2190:2342" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2243:2322" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2411:2688" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2448:2674" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2507:2655" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2558:2635" ph="{...}" />
-            <marker date="1496686383254" expanded="true" signature="2863:2963" ph="..." />
-            <marker date="1496686383254" expanded="true" signature="2916:2949" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/quiz_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="293" column="22" lean-forward="false" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="22" />
+        <state relative-caret-position="720">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tip_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="115" column="1" lean-forward="false" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20170324112430-AddAcceptdToTipsTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/quizzes/play.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tips/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="720">
           <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding />
         </state>
       </provider>
