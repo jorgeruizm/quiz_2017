@@ -281,7 +281,7 @@ exports.randomplay =  function(req, res, next){
 
 exports.randomcheck = function(req, res, next){
     var answer = req.query.answer || "";
-    var score = req.session.score;
+    //var score = req.session.score;
 
     var result = answer.toLowerCase().trim() === req.quiz.answer.toLowerCase().trim();
 
@@ -289,7 +289,7 @@ exports.randomcheck = function(req, res, next){
     models.Quiz.count({}).then(function(n){
         if(result){
             req.session.score++;
-            score=req.session.score;
+           // score=req.session.score;
         }
         else{
             req.session.score=0;
@@ -301,6 +301,7 @@ exports.randomcheck = function(req, res, next){
             res.render('random_result', {
                 score: req.session.score,
                 result: result,
+                quiz:req.quiz, 
                 answer: answer
             });
         }
